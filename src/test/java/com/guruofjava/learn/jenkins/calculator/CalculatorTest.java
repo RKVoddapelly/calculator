@@ -20,4 +20,9 @@ public class CalculatorTest {
     public void testSum(){
         Assert.assertEquals(5, calculator.sum(3, 2));
     }
+    
+    @Test
+    public void testSubtract(){
+        Assert.assertEquals(5, calculator.subtract(10, 4));
+    }
 }
