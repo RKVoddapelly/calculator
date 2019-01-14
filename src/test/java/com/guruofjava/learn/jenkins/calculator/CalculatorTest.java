@@ -14,6 +14,7 @@ import org.junit.Test;
  */
 public class CalculatorTest {
     private Calculator calculator = new Calculator();
+
     
     @Test
     public void testSum(){
