@@ -56,7 +56,7 @@
                         <id>default-prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
-                        </goals>
+                        </goals>    
                     </execution>
                     <execution>
                         <id>default-report</id>
@@ -72,12 +72,12 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <rule implementation="org.jacoco.maven.RuleConfiguration">
+                                <rule>
                                     <element>BUNDLE</element>
                                     <limits>
-                                        <limit implementation="org.jacoco.report.check.Limit">
+                                        <limit>
                                             <counter>INSTRUCTION</counter>
-                                            <value>COVEREDRATION</value>
+                                            <value>COVEREDRATIO</value>
                                             <minimum>${jacoco.percentage.instruction}</minimum>
                                         </limit>
                                     </limits>
