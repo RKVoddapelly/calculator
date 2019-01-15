@@ -94,8 +94,8 @@
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                    <!--failsOnError>true</failsOnError-->
-                    <failOnViolation>true</failOnViolation>
+                    <failsOnError>true</failsOnError>
+                    <!--failOnViolation>true</failOnViolation-->
                     <checkstyleRules>
                         <module name="Checker">
                             <module name="TreeWalker">
