@@ -13,16 +13,16 @@ import org.junit.Test;
  * @author ArshiaAziz
  */
 public class CalculatorTest {
+
     private Calculator calculator = new Calculator();
 
-    
     @Test
-    public void testSum(){
+    public void testSum() {
         Assert.assertEquals(5, calculator.sum(3, 2));
     }
-    
+
     @Test
-    public void testSubtract(){
+    public void testSubtract() {
         Assert.assertEquals(5, calculator.subtract(10, 5));
     }
 }

@@ -13,11 +13,24 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class Calculator {
-    public int sum(int a, int b){
+
+    /**
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public int sum(final int a, final int b) {
         return a + b;
     }
-    
-    public int subtract(int a, int b){
+
+    /**
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public int subtract(final int a, final int b) {
         return a - b;
     }
 }
