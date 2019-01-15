@@ -68,6 +68,7 @@
                     </execution>
                     <execution>
                         <id>jacoco-check</id>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
@@ -109,9 +110,9 @@
                 <executions>
                     <execution>
                         <id>verify-checkstyle</id>
-                        <!--phase>verify</phase-->
+                        <phase>package</phase>
                         <goals>
-                            <goal>checkstyle</goal>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
