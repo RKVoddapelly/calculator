@@ -106,6 +106,15 @@
                         </module>
                     </checkstyleRules>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>verify-checkstyle</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
