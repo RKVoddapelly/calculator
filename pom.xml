@@ -104,6 +104,14 @@
                         </module>
                     </checkstyleRules>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>verify-checkstyle</id>
+                        <goals>
+                            <goal>checkstyle</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
