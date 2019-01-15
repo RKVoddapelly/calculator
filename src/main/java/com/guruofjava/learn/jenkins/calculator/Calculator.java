@@ -14,6 +14,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class Calculator {
 
+    public int multiply(final int a, final int b) {
+        return a * b;
+    }
+    
     /**
      *
      * @param a
