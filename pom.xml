@@ -109,7 +109,7 @@
                 <executions>
                     <execution>
                         <id>verify-checkstyle</id>
-                        <phase>process-sources</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
